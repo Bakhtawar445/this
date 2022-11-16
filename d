@@ -31,4 +31,11 @@ namespace TestProject1
         }
     }
 }
+//test class code
+public void TestMethod1()
+        {
+            Class1 obj = new Class1();
+            double variable = obj.Calculate_Salary(12, 99);
+            Assert.AreEqual(variable, 40);
+        }
 
